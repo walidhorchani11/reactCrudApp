@@ -1,7 +1,6 @@
 import React from 'react';
 
-const CourseForm = (props) => {
-  let {add, change, current} = props;
+const CourseForm = ({add, change, current}) => {
     return (
       <div>
         <form onSubmit={add} >
